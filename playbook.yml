@@ -1,0 +1,5 @@
+- hosts: webserver
+  tasks:
+     - file:
+           path: /tmp/data
+           state: directory
